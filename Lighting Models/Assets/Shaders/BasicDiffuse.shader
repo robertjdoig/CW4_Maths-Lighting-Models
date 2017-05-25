@@ -2,7 +2,7 @@
   Properties{
     _EmissiveColor("Emissive Color", Color) = (1,1,1,1)
     _AmbientColor("Ambient Color", Color) = (1,1,1,1)
-    _MySliderValue("This is a Slier", Range(0,10)) = 2.5
+    _MySliderValue("Ambient Strength", Range(0,10)) = 2.5
   }
     SubShader{
       Tags { "RenderType" = "Opaque" }

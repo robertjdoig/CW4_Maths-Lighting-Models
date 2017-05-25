@@ -76,11 +76,20 @@
   <ItemGroup>
     <Compile Include="Assets\Cars\Scripts\TakeScreenshot.cs" />
     <Compile Include="Assets\Cars\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\DynCubeMap.cs" />
+    <Compile Include="Assets\cameraMovement.cs" />
+    <Compile Include="Assets\carRotation.cs" />
+    <Compile Include="Assets\reflectionCubeMap.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shaders\BRDF.shader" />
     <None Include="Assets\Shaders\BRDFEffectDiffuse.shader" />
     <None Include="Assets\Shaders\BasicDiffuse.shader" />
+    <None Include="Assets\Shaders\BlinnPhong.shader" />
+    <None Include="Assets\Shaders\CubeMapReflections.shader" />
+    <None Include="Assets\Shaders\FresnelReflections.shader" />
     <None Include="Assets\Shaders\HalfLamDiffuse.shader" />
+    <None Include="Assets\Shaders\MaskReflection.shader" />
     <None Include="Assets\Shaders\Phong.shader" />
     <None Include="Assets\Shaders\RampDiffuse.shader" />
   </ItemGroup>
